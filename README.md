@@ -45,7 +45,20 @@ The objective is to identify each of a large number of black-and-white rectangul
 
 # Results
 
-1. **Bagging**
+**1. Bagging**
 
+![output1](https://github.com/Devashi-Choudhary/Bagging-Boosting/blob/main/Bagging.png)
+
+In bagging we are doing random sampling with replacement then there will be chance duplicated data will be occur so there will be inconsistency among weak classifier in bagging. So  if decrease the sample size then there will be chance that accuracy will increase because probability of duplicate will be less.
+
+**2. Boosting**
+
+![output2](https://github.com/Devashi-Choudhary/Bagging-Boosting/blob/main/Boosting.png)
+
+In boosting we are also performing random sampling without replacement. In every iteration the classifier is used on misclassified sample so as we increase the number of classifiers then accuracy will be increased. At some N, if we increase the classifier then accuracy will be constant this is because the sample data is fitted properly so increasing the number of classifier will not affect it.
+
+
+# Acknowledgement
+ This project is done as a part of college assignment.
 
 
