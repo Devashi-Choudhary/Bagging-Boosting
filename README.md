@@ -37,8 +37,7 @@ The objective is to identify each of a large number of black-and-white rectangul
 2. Make sure you have the correct version of Python installed on your machine. This code runs on Python 3.6 above.
 3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 > `pip install requirements.txt`
-4. Now, you can download the dataset from [here](ftp://ftp.ics.uci.edu/pub/machine-learning-databases/letter-recognition
-) and put it in the current folder.
+4. Now, you can download the dataset from [here](https://www.kaggle.com/nishan192/letterrecognition-using-svm) and put it in the current folder.
 5. Open terminal. Go into the project directory folder and type the following command:
 > `python Bagging.py -d <dataset path>` for Bagging Ensemble Learning.
 
